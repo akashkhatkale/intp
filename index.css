@@ -1,0 +1,125 @@
+.logo > h2 {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 30px;
+  text-transform: capitalize;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  background: #003379;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 80px;
+  z-index: 1000;
+}
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav .nav-links a {
+  margin-right: 50px;
+  color: #fff;
+  opacity: 50%;
+  text-decoration: none;
+}
+.nav .nav-links > .nav-main {
+  color: #fff;
+  opacity: 100%;
+  font-weight: 600;
+}
+.nav-login-button {
+  background-color: #f70067;
+  padding: 10px 50px;
+  width: fit-content;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 100px;
+}
+
+/* LANDINGG */
+.landing-main .landing-image {
+  width: 100%;
+  background-image: url("bg_image.png");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-main {
+  width: 100%;
+  position: relative;
+  top: 80px;
+}
+.landing-main .landing-texts {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+
+.landing-main .landing-texts .landing-title > h2 {
+  color: #003379;
+  font-size: 40px;
+  font-weight: 600;
+}
+.landing-main .landing-texts .landing-subtitle {
+  width: fit-content;
+}
+
+.landing-main .landing-texts .landing-subtitle > h2 {
+  color: #003379;
+  opacity: 40%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.features-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.features-title {
+  color: white;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.feature-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 120px;
+}
+.features {
+  display: flex;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
